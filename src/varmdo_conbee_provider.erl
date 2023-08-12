@@ -67,8 +67,6 @@ init([]) ->
     ok=application:start(log),
     ok=application:start(etcd),
     ok=application:start(hw_conbee),
-   % ok=application:start(zigbee_devices),
-    
     
     {ok, #state{}}.
 
