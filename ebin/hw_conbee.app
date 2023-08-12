@@ -1,0 +1,11 @@
+{application,hw_conbee,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{hw_conbee_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[conbee,conbee_init,hw_conbee,hw_conbee_app,
+                        hw_conbee_sup,lgh,lib_hw_conbee]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.

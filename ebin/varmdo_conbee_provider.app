@@ -1,0 +1,11 @@
+{application,varmdo_conbee_provider,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{varmdo_conbee_provider_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[varmdo_conbee_provider,varmdo_conbee_provider_app,
+                        varmdo_conbee_provider_sup]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.
