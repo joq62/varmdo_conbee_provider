@@ -17,7 +17,7 @@
   1},
  {<<"hw_conbee">>,
   {git,"https://github.com/joq62/hw_conbee.git",
-       {ref,"166f2f2fc5310a1098915bb14f0f75b16b92b93b"}},
+       {ref,"af5aef052e21e25ba8bafe592849b111be2aa325"}},
   0},
  {<<"jsx">>,{pkg,<<"jsx">>,<<"3.1.0">>},1},
  {<<"lib_sd">>,
@@ -31,11 +31,7 @@
  {<<"ranch">>,
   {git,"https://github.com/ninenines/ranch",
        {ref,"3190aef88aea04d6dce8545fe9b4574288903f44"}},
-  1},
- {<<"zigbee_devices">>,
-  {git,"https://github.com/joq62/zigbee_devices.git",
-       {ref,"489f8cbfbe9f55f33dcc08357e978cd9ca9dee63"}},
-  0}]}.
+  1}]}.
 [
 {pkg_hash,[
  {<<"jsx">>, <<"D12516BAA0BB23A59BB35DCCAF02A1BD08243FCBB9EFE24F2D9D056CCFF71268">>}]},
