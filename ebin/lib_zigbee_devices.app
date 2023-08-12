@@ -1,0 +1,13 @@
+{application,lib_zigbee_devices,
+             [{description,"An OTP library"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[lib_zigbee_devices,lumi_sensor_magnet_aq2,
+                        lumi_sensor_motion_aq2,lumi_weather,
+                        tradfri_bulb_E14_ws_candleopal_470lm,
+                        tradfri_bulb_e27_cws_806lm,tradfri_bulb_e27_ww_806lm,
+                        tradfri_control_outlet,tradfri_on_off_switch]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.
